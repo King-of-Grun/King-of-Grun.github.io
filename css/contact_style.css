@@ -1,0 +1,17 @@
+#contact-container
+{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contacts
+{
+    text-align: left;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

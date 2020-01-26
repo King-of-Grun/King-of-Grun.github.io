@@ -1,0 +1,93 @@
+#team-containter
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#team-containter>div
+{
+    flex: 0 30%;
+}
+
+.team-member
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    color: wheat;
+    /*padding: 10px;*/
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: max-content;
+    margin-top: 50px;
+    padding: 2% 2%;
+}
+
+.team-member a
+{
+    color: lightsteelblue;
+}
+.member-info
+{
+    /*padding-left: 10px;*/
+    text-align: right;
+    /*padding: 5%;*/
+}
+.member-desc
+{
+    text-align: justify;
+    font-size: 25px;
+}
+.member-contact
+{
+    display: flex;
+    flex-direction: column;
+}
+.member-photo
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*height: auto;*/
+    width: 125px;
+    height: 160px;
+}
+.member-name,
+.member-position
+{
+    height: min-content;
+    width: 64%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 45px;
+}
+
+.member-photo1
+{
+    background-image: url(../images/dominik.jpeg);
+}
+.member-photo2
+{
+    background-image: url(../images/andrej.jpeg);
+}
+.member-photo3
+{
+    background-image: url(../images/dihn.jpeg);
+}
+.member-photo4
+{
+    background-image: url(../images/martin.jpeg);
+}
+.member-photo5
+{
+    background-image: url(../images/radoslav.jpeg);
+}
+.member-photo6
+{
+    background-image: url(../images/vladyslav.jpeg);
+}
