@@ -7,6 +7,7 @@
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
+    
 }
 #team-containter>div
 {
@@ -27,22 +28,25 @@
     height: max-content;
     margin-top: 50px;
     padding: 2% 2%;
+    
 }
 
 .team-member a
 {
     color: lightsteelblue;
+    /*font-size: 15px;*/
 }
 .member-info
 {
     /*padding-left: 10px;*/
     text-align: right;
+    
     /*padding: 5%;*/
 }
 .member-desc
 {
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
 }
 .member-contact
 {
@@ -61,10 +65,10 @@
 .member-position
 {
     height: min-content;
-    width: 64%;
+    width: 100%;
     margin-top: 5%;
     margin-bottom: 10%;
-    font-size: 45px;
+    font-size: 20px;
 }
 
 .member-photo1
